@@ -2,7 +2,7 @@
 
 This repository contains a detailed tutorial on how to perform the GIS-FA analyses, described in the paper "GIS-FA: An approach to integrating thematic maps, factor-analytic, and envirotyping for cultivar targeting" (*the link will be available soon*). 
 
-**ATTENTION: The `shapefile` folder referred to in the pipeline is quite large, and could not be loaded into GitHub. Thus, before reproducing the analysis, you may want to download the shapefiles from this link:**  *the link will be available soon!*
+**ATTENTION: The `shapefile` folder referred to in the pipeline is quite large, and could not be loaded into GitHub. Thus, before reproducing the analysis, you may want to download the shapefiles from this [link](https://drive.google.com/drive/u/1/folders/1dshP1ZI1pWBNJMa4foX_nGwb-nQub__d)**
 
 ## Overview
 
