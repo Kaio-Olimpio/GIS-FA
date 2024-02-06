@@ -15,7 +15,7 @@ GIS-FA is a method that integrates Factor Analytic (FA) linear mixed models, geo
 5. Returns to the FA: the predicted loadings are used in factorial regressions to predict the empirical BLUPs of the selection candidates in unobserved environments.
 6. Wraps-up the outcomes to build sophisticated thematic maps (genotype adaptation map, pairwise comparison maps, which-won-where maps...)
 
-[unnamed-chunk-76-1.pdf](https://github.com/Kaio-Olimpio/GIS-FA/files/14184439/unnamed-chunk-76-1.pdf)
+![unnamed-chunk-76-1-1](https://github.com/Kaio-Olimpio/GIS-FA/assets/101746579/6bc2ecbe-163c-4728-ab49-0150338d47ab)
 
 ## Content
 
