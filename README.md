@@ -2,7 +2,7 @@
 
 This repository contains a detailed tutorial on how to perform the GIS-FA analyses, described in the paper "GIS-FA: An approach to integrating thematic maps, factor-analytic, and envirotyping for cultivar targeting" (*the link will be available soon*). 
 
-**ATTENTION: The `shapefile` folder referred in the pipeline is quite large, and could not be loaded into GitHub. Thus, before reproducing the analysis, you may want to download the shapefiles from this link: ** *the link will be available soon!*
+**ATTENTION: The `shapefile` folder referred to in the pipeline is quite large, and could not be loaded into GitHub. Thus, before reproducing the analysis, you may want to download the shapefiles from this link:**  *the link will be available soon!*
 
 ## Overview
 
@@ -14,6 +14,8 @@ GIS-FA is a method that integrates Factor Analytic (FA) linear mixed models, geo
 4. Uses the loadings of the observed environments, obtained from the FA model, to train a PLS model fed with environmental features. The goal is to predict the unobserved environments' loadings.
 5. Returns to the FA: the predicted loadings are used in factorial regressions to predict the empirical BLUPs of the selection candidates in unobserved environments.
 6. Wraps-up the outcomes to build sophisticated thematic maps (genotype adaptation map, pairwise comparison maps, which-won-where maps...)
+
+[unnamed-chunk-76-1.pdf](https://github.com/Kaio-Olimpio/GIS-FA/files/14184439/unnamed-chunk-76-1.pdf)
 
 ## Content
 
