@@ -2,7 +2,7 @@
 
 Araújo, M.S., Chaves, F, S., ... Dias, K.O.G. Theor Appl Genet (2024). [https://doi.org/10.1007/s00122-017-3033-y
 ](https://doi.org/10.1007/s00122-024-04579-z)
-This repository contains a detailed tutorial on how to perform the GIS-FA analyses, described in the paper "GIS-FA: An approach to integrating thematic maps, factor-analytic, and envirotyping for cultivar targeting" (*the link will be available soon*). 
+This repository contains a detailed tutorial on how to perform the GIS-FA analyses.
 
 **ATTENTION: The `shapefile` folder referred to in the pipeline is quite large, and could not be loaded into GitHub. Thus, before reproducing the analysis, you may want to download the shapefiles from this [link](https://drive.google.com/drive/u/1/folders/1dshP1ZI1pWBNJMa4foX_nGwb-nQub__d)**
 
