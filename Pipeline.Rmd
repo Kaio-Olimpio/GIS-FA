@@ -1,5 +1,7 @@
 ---
-title: "GIS-FA Pipeline"
+title: "GIS-FA: an approach to integrating thematic maps, factor-analytic, and envirotyping for cultivar targeting"
+subtitle: "Theor Appl Genet (2024). https://doi.org/10.1007/s00122-017-3033-y"
+author: "Saulo F. S. Chaves, Mauricio S. Araujo, Matheus D. Krause, Kaio O. G. Dias"
 header-includes:
   - \usepackage{fancyhdr}
   - \pagestyle{fancy}
@@ -217,7 +219,7 @@ fa4$Gcor[1:5, 1:5]
 
 Given by @Smith2015Factor: 
 
-$$v_{k_j} = \frac{\sum^K_{k=1}{\hat{\lambda}^{\star^2}_{k_j}d_k}}{\sum^K_{k=1}{\hat{\lambda}^{\star^2}_{k_j}d_k + \hat{\psi}_j}} \times 100$$ 
+$$v_{k_j} = \frac{{\hat{\lambda}^{\star^2}_{k_j}d_k}}{\sum^K_{k=1}{\hat{\lambda}^{\star^2}_{k_j}d_k + \hat{\psi}_j}} \times 100$$ 
 
 where $v_{k_j}$ is the proportion of variance of the $\texttt j^{th}$ environment explained by the $\texttt k^{th}$ factor.
 
@@ -313,7 +315,7 @@ where $PEV_i$ is the prediction error variance of the $\texttt i^{th}$ genotype,
 
 When building the index, you can prioritize what you think is more important for reaching your goals (performance over stability, or the other way around). For example, if we define performance is two times more important than stability, the index will have a weight of 2 for OP, and a weight of 1 for RMSD: 
 
-$$\texttt{Index}_i = 2 \times [\frac{OP_i - \overline{OP}}{\sqrt{V(OP)}}] - \frac{RMSD_i - \overline{RMSD}}{\sqrt{V(RMSD)}}$$
+$$\texttt{Index}_i = \left[2 \times \frac{OP_i - \overline{OP}}{\sqrt{V(OP)}}\right] - \frac{RMSD_i - \overline{RMSD}}{\sqrt{V(RMSD)}}$$
 
 The `R` code is presented below:
 
