@@ -1,6 +1,6 @@
 # GIS‑FA: an approach to integrating thematic maps, factor‑analytic, and envirotyping for cultivar targeting
 
-Araújo, M.S., Chaves, S. F. S., ... Dias, K.O.G. Theor Appl Genet (2024). [https://doi.org/10.1007/s00122-017-3033-y
+Araújo, M.S., Chaves, S.F.S., ... Dias, K.O.G. Theor Appl Genet (2024). [https://doi.org/10.1007/s00122-017-3033-y
 ](https://doi.org/10.1007/s00122-024-04579-z)
 
 This repository contains a detailed tutorial on how to perform the GIS-FA analyses.
